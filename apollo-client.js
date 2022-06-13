@@ -3,7 +3,7 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-    uri: "https://estherville.stepzen.net/api/bumptious-echidna/__graphql",
+    uri: "http://localhost:5001/api/salamander",
     headers: {
         Authorization:  `Apikey ${process.env.STEPZEN_APIKEY}`,
     },
