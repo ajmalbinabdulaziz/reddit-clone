@@ -10,7 +10,7 @@ const Header = () => {
   const {data: session} = useSession()
 
   return (
-    <div className='flex bg-white px-4 py-2'>
+    <div className='flex sticky top-0 bg-white px-4 py-2'>
 
       <div className="relative h-10 w-20 flex-shrink-0 cursor-pointer">
           <Image 
