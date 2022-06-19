@@ -42,7 +42,6 @@ const PostBox = ({ subreddit}: Props) => {
   const [imageBoxOpen, setImageBoxOpen] = useState<boolean>(false)
 
   const onSubmit = handleSubmit(async (formData) => {
-    console.log(formData)
     const notification = toast.loading('Creating new post..')
 
     try {
