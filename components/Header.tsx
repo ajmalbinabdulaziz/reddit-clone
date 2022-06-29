@@ -54,7 +54,7 @@ const Header = () => {
 
     {/* Sign in/Sign out button */}
     {session ? (
-      <div onClick={signOut} className='hidden cursor-pointer items-center space-x-2 border 
+      <div onClick={()=>signOut} className='hidden cursor-pointer items-center space-x-2 border 
       border-gray-100 p-1 lg:flex'>
         <div className='relative w-7 h-7 flex-shrink-0'>
           <Image
@@ -74,7 +74,7 @@ const Header = () => {
       </div>
 
     ) : (
-      <div onClick={signIn} className='hidden cursor-pointer items-center space-x-2 border 
+      <div onClick={()=>signIn} className='hidden cursor-pointer items-center space-x-2 border 
       border-gray-100 p-2 lg:flex'>
         <div className='relative w-7 h-7 flex-shrink-0'>
           <Image
