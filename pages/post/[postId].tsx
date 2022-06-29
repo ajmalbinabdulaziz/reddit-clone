@@ -84,6 +84,7 @@ const PostPage = () => {
             />
 
             <button
+            disabled={!session}
             type='submit'
             className='rounded-full bg-red-500 p-3 text-white font-semibold
             disabled:bg-gray-200'>
